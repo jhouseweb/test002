@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>J House</title>
+ 
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+  :root{
+   --dark: #165858;
+  }
+  *{
+   padding: 0; 
+   margin: 0;
+   box-sizing: border-box;
+  }
+  header{
+   width: 100vw;
+   height: 60px;
+   background: var(--dark);
+   display: inline-block;
+  }
+  header .logo img{
+   width: 50px;
+   height: 50px;
+   float: left;
+   margin: 5px;
+  }
+  header .logo h1{
+   float: left;
+   color: yellow;
+   line-height: 60px;
+   font-size: 24px;
+  }
+  header h2{
+   float: right;
+   font-size: 14px;
+   line-height: 60px;
+   color: #aaa;
+   padding-right: 5px;
+   position: relative;
+  }
+  header h2:before{
+   content: "";
+   position: absolute;
+   top: 25%;
+   left: -5px;
+   width: 3px;
+   height: 50%;
+   background: #ddd;
+   border-radius: 10px;
+  }
+  
+  /*About*/
+  
+  main{
+  
+  }
+  main .about{
+   width: 100%;
+  }
+  .about h2{
+   color: yellow;
+   font-size: 20px;
+   background: var(--dark);
+   width: 120px;
+   margin: 5px auto;
+   padding: 0 5px;
+   border-radius: 10px;
+   text-align: center;
+  }
+  .about p{
+   padding: 10px;
+  }
+  .about span a {
+      text-align: center;
+      padding: 5px;
+      margin-left: 25%;
+      color: green;
+      border-radius: 10px;
+      font-weight: 700;
+  }
+      /*Video*/
+  .video video{
+      display: block;
+      margin: 10px auto;
+      border: solid 2px var(--dark);
+  }
+      /*example*/
+    .example p{
+       text-align: center; 
+    }
+    
+    /*footer*/
+    footer{
+        text-align: center;
+        position: relative;
+        top: 50px;
+        width: 100%;
+        height: 50px;
+        background: rgba(100,100,100,.25);
+    }
+ 
+ </style>
+</head>
+<body>
+ 
+ <header>
+  <div class='logo'>
+   <img src="logo.png">
+   <h1>House</h1>
+  </div>
+  <h2>Website Services</h2>
+ </header>
+ 
+ <main>
+     
+  <div class="about">
+   <h2>About Us</h2>
+   <p>
+       ကျွန်တော်တို့<span style="font-weight: bold; color: red; font-size: 20px;">J House</span> မှ static website တစ်ခုကို <span style="text-decoration:underline red; ">ငါးထောင်ကျပ်</span>ဖြင့် ဆောက်ရွက်ပေးနေပါပြီ။ portfolio လိုချင်သူများ၊ကိုယ်ပိုင်စီးပွားရေးအတွက် website လိုချင်သူများ၊ ပုံဆွဲ၊ပန်းချီဆွဲ သော digital artist များအတွက် art showcase website များကိုလုပ်ဆောင်ပေးနေပါပြီ။<a href="https://www.facebook.com/J-House-109243531396464/">facebook messenger </a>သို့ဆက်သွယ်ပေးပါခင်ဗျ။
+   </p>
+   <span><a href="https://www.facebook.com/J-House-109243531396464/">click here</a> to contact
+   </span>
+  </div>
+  
+  <div class="video">
+    <video width="320" height="185" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>  
+  </div>
+  
+  <div class="example">
+      <p>
+         <a href="https://jhouseweb.github.io/test001/">နမူနာ website ကြည့်ရန်</a>
+      </p>
+  </div>
+  
+ </main>
+ 
+ <footer>
+ <p>&copy; copyrights 2021 All rights reserved.</p>
+ <p> - J House - </p>
+ </footer>
+ 
+</body>
+</html>
